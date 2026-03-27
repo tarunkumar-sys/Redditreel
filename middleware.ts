@@ -4,6 +4,7 @@ import { NextResponse } from 'next/server';
 export default auth((req) => {
   const { pathname } = req.nextUrl;
   const isLoggedIn = !!req.auth;
+  const role = (req.auth?.user as any)?.role as string | undefined;
 
   // Protect dashboard and admin — redirect to home with modal trigger if not authenticated
   const isProtected = pathname.startsWith('/dashboard') || pathname.startsWith('/admin');
@@ -12,6 +13,16 @@ export default auth((req) => {
     url.searchParams.set('auth', '1');
     url.searchParams.set('callbackUrl', pathname);
     return NextResponse.redirect(url);
+  }
+
+  // Role guard — non-admins can't access /admin
+  if (pathname.startsWith('/admin') && isLoggedIn && role !== 'ADMIN') {
+    return NextResponse.redirect(new URL('/dashboard', req.url));
+  }
+
+  // Role-based redirect — admins hitting /dashboard go to /admin instead
+  if (pathname.startsWith('/dashboard') && isLoggedIn && role === 'ADMIN') {
+    return NextResponse.redirect(new URL('/admin', req.url));
   }
 
   // Add security headers to every response

@@ -6,8 +6,11 @@ import LandingPage from '@/app/_landing';
 export default async function Page() {
   const session = await auth();
 
-  // Already logged in — skip the landing page entirely
-  if (session?.user) redirect('/dashboard');
+  if (session?.user) {
+    // Role-based redirect — admin goes straight to admin panel
+    const role = (session.user as any).role;
+    redirect(role === 'ADMIN' ? '/admin' : '/dashboard');
+  }
 
   return <LandingPage navActions={<NavActions />} />;
 }

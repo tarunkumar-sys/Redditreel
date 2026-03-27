@@ -5,7 +5,7 @@ import { createPortal } from 'react-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { X } from 'lucide-react';
 import AppIcon from '@/components/AppIcon';
-import { loginAction, registerAction } from '@/app/actions/auth';
+import { loginAction, registerAction, getRoleByEmail } from '@/app/actions/auth';
 import { useScrollLock } from '@/lib/useScrollLock';
 
 interface LoginModalProps {
@@ -71,14 +71,20 @@ export default function LoginModal({ open, onClose, callbackUrl = '/dashboard' }
     reset();
 
     const formData = new FormData(e.currentTarget);
-    if (!validateClient(formData)) return; // stop if client errors
+    if (!validateClient(formData)) return;
 
     setLoading(true);
+
+    // Helper: redirect to role-appropriate destination
+    const redirectByRole = async (email: string) => {
+      const role = await getRoleByEmail(email);
+      window.location.href = role === 'ADMIN' ? '/admin' : callbackUrl;
+    };
 
     if (isLogin) {
       const res = await loginAction(formData);
       if (res?.error) { setError(res.error); setLoading(false); }
-      else { window.location.href = callbackUrl; }
+      else { await redirectByRole(formData.get('email') as string); }
     } else {
       const res = await registerAction(formData);
       if (res?.error) { setError(res.error); setLoading(false); }
@@ -86,7 +92,7 @@ export default function LoginModal({ open, onClose, callbackUrl = '/dashboard' }
         setMsg('Account created! Signing you in…');
         const loginRes = await loginAction(formData);
         if (loginRes?.error) { setError(loginRes.error); setLoading(false); }
-        else { window.location.href = callbackUrl; }
+        else { await redirectByRole(formData.get('email') as string); }
       }
     }
   };

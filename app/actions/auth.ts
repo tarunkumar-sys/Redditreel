@@ -42,11 +42,14 @@ export async function registerAction(formData: FormData) {
     const byEmail = await prisma.user.findUnique({ where: { email } });
     if (byEmail) return { error: 'An account with this email already exists.' };
 
-    // 3 — Duplicate name check (case-insensitive)
+    // 3 — Duplicate name check (case-insensitive — SQLite stores as-is, compare lowercased)
     const byName = await prisma.user.findFirst({
-      where: { name: { equals: name, mode: 'insensitive' } },
+      where: { name: { equals: name } },
     });
-    if (byName) return { error: 'This display name is already taken.' };
+    // Also check lowercased variant manually
+    const allNames = await prisma.user.findMany({ select: { name: true } });
+    const nameTaken = allNames.some(u => u.name?.toLowerCase() === name.toLowerCase());
+    if (byName || nameTaken) return { error: 'This display name is already taken.' };
 
     // 4 — First user becomes ADMIN
     const count = await prisma.user.count();
@@ -72,5 +75,21 @@ export async function loginAction(formData: FormData) {
       return { error: 'Something went wrong. Please try again.' };
     }
     throw error; // Expected for Next.js NEXT_REDIRECT to work
+  }
+}
+
+/**
+ * Returns the role of a user by email — used after login to determine redirect target.
+ * Called server-side only; never exposes password or sensitive fields.
+ */
+export async function getRoleByEmail(email: string): Promise<'ADMIN' | 'USER' | null> {
+  try {
+    const user = await prisma.user.findUnique({
+      where: { email: email.trim().toLowerCase() },
+      select: { role: true },
+    });
+    return (user?.role as 'ADMIN' | 'USER') ?? null;
+  } catch {
+    return null;
   }
 }
