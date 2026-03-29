@@ -1,0 +1,2759 @@
+{
+  "Normal": {
+    "Gifs": {
+      "General": [
+        "r/gifs",
+        "r/behindthegifs",
+        "r/gif",
+        "r/Cinemagraphs",
+        "r/WastedGifs",
+        "r/educationalgifs",
+        "r/perfectloops",
+        "r/highqualitygifs",
+        "r/gifsound",
+        "r/combinedgifs",
+        "r/retiredgif",
+        "r/michaelbaygifs",
+        "r/gifrecipes",
+        "r/mechanical_gifs",
+        "r/bettereveryloop",
+        "r/gifextra",
+        "r/slygifs",
+        "r/gifsthatkeepongiving",
+        "r/wholesomegifs",
+        "r/noisygifs",
+        "r/brokengifs",
+        "r/loadingicon",
+        "r/splitdepthgifs"
+      ],
+      "People": [
+        "r/blackpeoplegifs",
+        "r/whitepeoplegifs",
+        "r/asianpeoplegifs",
+        "r/scriptedasiangifs"
+      ],
+      "Reaction": [
+        "r/reactiongifs",
+        "r/shittyreactiongifs"
+      ],
+      "Science": [
+        "r/chemicalreactiongifs",
+        "r/physicsgifs"
+      ],
+      "Nature": [
+        "r/babyelephantgifs",
+        "r/weathergifs"
+      ]
+    },
+    "Images": {
+      "General": [
+        "r/pics",
+        "r/PhotoshopBattles",
+        "r/perfecttiming",
+        "r/itookapicture",
+        "r/Pareidolia",
+        "r/ExpectationVSReality",
+        "r/dogpictures",
+        "r/misleadingthumbnails",
+        "r/FifthWorldPics",
+        "r/TheWayWeWere",
+        "r/pic",
+        "r/nocontextpics",
+        "r/miniworlds",
+        "r/foundpaper",
+        "r/images",
+        "r/screenshots"
+      ],
+      "Interesting": [
+        "r/mildlyinteresting",
+        "r/interestingasfuck",
+        "r/damnthatsinteresting",
+        "r/beamazed",
+        "r/reallifeshinies",
+        "r/thatsinsane",
+        "r/playitagainsam"
+      ],
+      "Women_SFW": [
+        "r/gentlemanboners",
+        "r/prettygirls",
+        "r/hardbodies",
+        "r/girlsmirin",
+        "r/goddesses",
+        "r/shorthairedhotties",
+        "r/fitandnatural",
+        "r/wrestlewiththeplot",
+        "r/bois",
+        "r/GentlemanBonersGifs"
+      ],
+      "Asian_SFW": [
+        "r/asiancuties",
+        "r/asiangirlsbeingcute"
+      ],
+      "Photoshop": [
+        "r/PhotoshopBattles",
+        "r/ColorizedHistory",
+        "r/reallifedoodles",
+        "r/HybridAnimals",
+        "r/colorization"
+      ],
+      "Redditors_Selfies": [
+        "r/amiugly",
+        "r/roastme",
+        "r/rateme",
+        "r/uglyduckling",
+        "r/prettygirlsuglyfaces"
+      ],
+      "Wallpapers": [
+        "r/wallpapers",
+        "r/wallpaper",
+        "r/Offensive_Wallpapers"
+      ]
+    },
+    "Videos": {
+      "General": [
+        "r/videos",
+        "r/youtubehaiku",
+        "r/artisanvideos",
+        "r/DeepIntoYouTube",
+        "r/nottimanderic",
+        "r/praisethecameraman",
+        "r/killthecameraman",
+        "r/perfectlycutscreams",
+        "r/donthelpjustfilm",
+        "r/abruptchaos"
+      ]
+    },
+    "Discussion": {
+      "General": [
+        "r/ShowerThoughts",
+        "r/DoesAnybodyElse",
+        "r/changemyview",
+        "r/crazyideas",
+        "r/howtonotgiveafuck",
+        "r/tipofmytongue",
+        "r/quotes",
+        "r/casualconversation",
+        "r/makenewfriendshere"
+      ],
+      "Advice": [
+        "r/relationship_advice",
+        "r/raisedbynarcissists",
+        "r/legaladvice",
+        "r/bestoflegaladvice",
+        "r/advice",
+        "r/amitheasshole",
+        "r/mechanicadvice",
+        "r/toastme",
+        "r/needadvice"
+      ],
+      "AMA": [
+        "r/IAmA",
+        "r/ExplainlikeIAmA",
+        "r/AMA",
+        "r/casualiama",
+        "r/de_Iama"
+      ],
+      "Games": [
+        "r/whowouldwin",
+        "r/wouldyourather",
+        "r/scenesfromahat",
+        "r/AskOuija",
+        "r/themonkeyspaw",
+        "r/shittysuperpowers",
+        "r/godtiersuperpowers",
+        "r/decreasinglyverbose",
+        "r/jesuschristouija"
+      ],
+      "Questions": [
+        "r/whatisthisthing",
+        "r/answers",
+        "r/NoStupidQuestions",
+        "r/amiugly",
+        "r/whatsthisbug",
+        "r/samplesize",
+        "r/tooafraidtoask",
+        "r/whatsthisplant",
+        "r/isitbullshit",
+        "r/questions",
+        "r/morbidquestions"
+      ],
+      "Ask_Subs": [
+        "r/AskReddit",
+        "r/ShittyAskScience",
+        "r/TrueAskReddit",
+        "r/AskScienceFiction",
+        "r/AskOuija"
+      ],
+      "Ask_Occupation": [
+        "r/AskScience",
+        "r/askhistorians",
+        "r/AskHistory",
+        "r/askculinary",
+        "r/AskSocialScience",
+        "r/askengineers",
+        "r/askphilosophy",
+        "r/askdocs"
+      ],
+      "Ask_Gender": [
+        "r/askwomen",
+        "r/askmen",
+        "r/askgaybros",
+        "r/askredditafterdark",
+        "r/asktransgender",
+        "r/askmenover30"
+      ],
+      "Stories": [
+        "r/tifu",
+        "r/self",
+        "r/confession",
+        "r/fatpeoplestories",
+        "r/confessions",
+        "r/storiesaboutkevin"
+      ],
+      "Customer_Service": [
+        "r/talesfromtechsupport",
+        "r/talesfromretail",
+        "r/techsupportmacgyver",
+        "r/idontworkherelady",
+        "r/TalesFromYourServer",
+        "r/KitchenConfidential",
+        "r/TalesFromThePizzaGuy",
+        "r/TalesFromTheFrontDesk",
+        "r/talesfromthecustomer",
+        "r/talesfromcallcenters",
+        "r/talesfromthesquadcar",
+        "r/talesfromthepharmacy",
+        "r/starbucks"
+      ],
+      "Revenge": [
+        "r/pettyrevenge",
+        "r/prorevenge",
+        "r/nuclearrevenge"
+      ],
+      "Scary_Weird": [
+        "r/nosleep",
+        "r/LetsNotMeet",
+        "r/Glitch_in_the_Matrix",
+        "r/shortscarystories",
+        "r/thetruthishere",
+        "r/UnresolvedMysteries",
+        "r/UnsolvedMysteries"
+      ],
+      "Support": [
+        "r/depression",
+        "r/SuicideWatch",
+        "r/Anxiety",
+        "r/foreveralone",
+        "r/offmychest",
+        "r/socialanxiety",
+        "r/trueoffmychest",
+        "r/unsentletters",
+        "r/rant"
+      ]
+    },
+    "Educational": {
+      "General": [
+        "r/YouShouldKnow",
+        "r/everymanshouldknow",
+        "r/LearnUselessTalents",
+        "r/changemyview",
+        "r/howto",
+        "r/Foodforthought",
+        "r/educationalgifs",
+        "r/lectures",
+        "r/education",
+        "r/college",
+        "r/GetStudying",
+        "r/teachers",
+        "r/watchandlearn",
+        "r/bulletjournal",
+        "r/applyingtocollege",
+        "r/lawschool"
+      ],
+      "Facts": [
+        "r/todayilearned",
+        "r/wikipedia"
+      ],
+      "Questions": [
+        "r/OutOfTheLoop",
+        "r/IWantToLearn"
+      ],
+      "Explain_Like": [
+        "r/explainlikeimfive",
+        "r/explainlikeIAmA",
+        "r/ExplainLikeImCalvin"
+      ],
+      "Anthropology": [
+        "r/anthropology"
+      ],
+      "Art": [
+        "r/Art",
+        "r/redditgetsdrawn",
+        "r/heavymind",
+        "r/drawing",
+        "r/graffiti",
+        "r/retrofuturism",
+        "r/sketchdaily",
+        "r/ArtPorn",
+        "r/pixelart",
+        "r/artfundamentals",
+        "r/learnart",
+        "r/specart",
+        "r/animation",
+        "r/wimmelbilder",
+        "r/illustration",
+        "r/streetart",
+        "r/painting",
+        "r/minipainting"
+      ],
+      "Computer_Science": [
+        "r/gamedev",
+        "r/engineering",
+        "r/ubuntu",
+        "r/cscareerquestions",
+        "r/EngineeringStudents",
+        "r/askengineers"
+      ],
+      "Coding": [
+        "r/learnprogramming",
+        "r/compsci",
+        "r/java",
+        "r/javascript",
+        "r/coding",
+        "r/machinelearning",
+        "r/howtohack",
+        "r/cpp",
+        "r/artificial",
+        "r/python",
+        "r/learnpython"
+      ],
+      "Economics": [
+        "r/Economics",
+        "r/business",
+        "r/entrepreneur",
+        "r/marketing",
+        "r/BasicIncome"
+      ],
+      "Business": [
+        "r/business",
+        "r/smallbusiness"
+      ],
+      "Stocks": [
+        "r/stocks",
+        "r/wallstreetbets",
+        "r/stockmarket"
+      ],
+      "Environment": [
+        "r/environment",
+        "r/zerowaste"
+      ],
+      "History": [
+        "r/history",
+        "r/AskHistorians",
+        "r/AskHistory",
+        "r/ColorizedHistory",
+        "r/badhistory",
+        "r/100yearsago",
+        "r/HistoryPorn",
+        "r/PropagandaPosters",
+        "r/TheWayWeWere",
+        "r/historymemes",
+        "r/castles"
+      ],
+      "Language": [
+        "r/linguistics",
+        "r/languagelearning",
+        "r/learnjapanese",
+        "r/french",
+        "r/etymology"
+      ],
+      "Law": [
+        "r/law"
+      ],
+      "Math": [
+        "r/math",
+        "r/theydidthemath"
+      ],
+      "Medicine": [
+        "r/medicalschool",
+        "r/medizzy"
+      ],
+      "Psychology": [
+        "r/psychology",
+        "r/JordanPeterson"
+      ],
+      "Science": [
+        "r/Science",
+        "r/AskScience",
+        "r/cogsci",
+        "r/medicine",
+        "r/everythingscience",
+        "r/geology"
+      ],
+      "Astronomy": [
+        "r/Space",
+        "r/SpacePorn",
+        "r/astronomy",
+        "r/astrophotography",
+        "r/aliens",
+        "r/rockets",
+        "r/spacex",
+        "r/nasa"
+      ],
+      "Biology": [
+        "r/biology",
+        "r/Awwducational"
+      ],
+      "Chemistry": [
+        "r/chemicalreactiongifs",
+        "r/chemistry"
+      ],
+      "Physics": [
+        "r/physics"
+      ]
+    },
+    "Entertainment": {
+      "General": [
+        "r/entertainment",
+        "r/fantheories",
+        "r/Disney",
+        "r/obscuremedia"
+      ],
+      "Anime_Manga": [
+        "r/anime",
+        "r/manga",
+        "r/anime_irl",
+        "r/awwnime",
+        "r/TsundereSharks",
+        "r/animesuggest",
+        "r/animemes",
+        "r/animegifs",
+        "r/animewallpaper",
+        "r/wholesomeanimemes"
+      ],
+      "Individual_Anime": [
+        "r/pokemon",
+        "r/onepiece",
+        "r/naruto",
+        "r/dbz",
+        "r/onepunchman",
+        "r/ShingekiNoKyojin",
+        "r/yugioh",
+        "r/BokuNoHeroAcademia",
+        "r/DDLC",
+        "r/berserk",
+        "r/hunterxhunter",
+        "r/tokyoghoul",
+        "r/shitpostcrusaders"
+      ],
+      "Books_Writing": [
+        "r/Books",
+        "r/WritingPrompts",
+        "r/writing",
+        "r/literature",
+        "r/booksuggestions",
+        "r/lifeofnorman",
+        "r/poetry",
+        "r/screenwriting",
+        "r/freeEbooks",
+        "r/boottoobig",
+        "r/hfy",
+        "r/suggestmeabook",
+        "r/lovecraft"
+      ],
+      "Comics": [
+        "r/comics",
+        "r/comicbooks",
+        "r/polandball",
+        "r/marvel",
+        "r/webcomics",
+        "r/bertstrips",
+        "r/marvelstudios",
+        "r/defenders",
+        "r/marvelmemes",
+        "r/avengers"
+      ],
+      "Individual_Books": [
+        "r/harrypotter",
+        "r/batman",
+        "r/calvinandhobbes",
+        "r/xkcd",
+        "r/DCComics",
+        "r/arrow",
+        "r/unexpectedhogwarts",
+        "r/spiderman",
+        "r/deadpool",
+        "r/KingkillerChronicle"
+      ],
+      "Game_of_Thrones": [
+        "r/asoiaf",
+        "r/gameofthrones",
+        "r/freefolk",
+        "r/jonwinsthethrone",
+        "r/gameofthronesmemes",
+        "r/daeneryswinsthethrone",
+        "r/asongofmemesandrage"
+      ],
+      "Lord_of_the_Rings": [
+        "r/lotr",
+        "r/lotrmemes",
+        "r/tolkienfans"
+      ],
+      "Celebrities": [
+        "r/celebs",
+        "r/celebhub"
+      ],
+      "Individual_Celebrities_Female": [
+        "r/EmmaWatson",
+        "r/jessicanigri",
+        "r/kateupton",
+        "r/alisonbrie",
+        "r/EmilyRatajkowski",
+        "r/jenniferlawrence",
+        "r/alexandradaddario"
+      ],
+      "Individual_Celebrities_Male": [
+        "r/onetruegod",
+        "r/joerogan",
+        "r/keanubeingawesome",
+        "r/crewscrew",
+        "r/donaldglover",
+        "r/elonmusk"
+      ],
+      "Cosplay": [
+        "r/cosplay",
+        "r/cosplaygirls"
+      ],
+      "Games": [
+        "r/lego",
+        "r/boardgames",
+        "r/rpg",
+        "r/chess",
+        "r/poker",
+        "r/jrpg"
+      ]
+    },
+    "Gaming": {
+      "Dungeons_and_Dragons": [
+        "r/DnD",
+        "r/DnDGreentext",
+        "r/DnDBehindTheScreen",
+        "r/dndnext",
+        "r/dungeonsanddragons",
+        "r/criticalrole",
+        "r/DMAcademy",
+        "r/dndmemes"
+      ],
+      "Magic": [
+        "r/magicTCG",
+        "r/modernmagic",
+        "r/magicarena"
+      ],
+      "Genres": [
+        "r/zombies",
+        "r/cyberpunk"
+      ],
+      "Fantasy": [
+        "r/fantasy"
+      ],
+      "Sci_Fi": [
+        "r/scifi",
+        "r/starwars",
+        "r/startrek",
+        "r/asksciencefiction",
+        "r/prequelmemes",
+        "r/empiredidnothingwrong",
+        "r/SequelMemes",
+        "r/sciencefiction"
+      ]
+    },
+    "Internet_Apps": {
+      "General": [
+        "r/InternetIsBeautiful",
+        "r/facepalm",
+        "r/wikipedia",
+        "r/creepyPMs",
+        "r/web_design",
+        "r/google",
+        "r/KenM",
+        "r/bannedfromclubpenguin",
+        "r/savedyouaclick",
+        "r/bestofworldstar",
+        "r/discordapp",
+        "r/snaplenses",
+        "r/instagramreality",
+        "r/internetstars",
+        "r/robinhood",
+        "r/shortcuts",
+        "r/scams",
+        "r/tiktokcringe",
+        "r/crackheadcraigslist"
+      ],
+      "4chan": [
+        "r/4chan",
+        "r/Classic4chan",
+        "r/greentext"
+      ],
+      "Facebook": [
+        "r/facepalm",
+        "r/oldpeoplefacebook",
+        "r/facebookwins",
+        "r/indianpeoplefacebook",
+        "r/terriblefacebookmemes",
+        "r/insanepeoplefacebook"
+      ],
+      "Internet_Dating": [
+        "r/Tinder",
+        "r/OkCupid"
+      ],
+      "Internet_Politics": [
+        "r/KotakuInAction",
+        "r/wikileaks",
+        "r/shitcosmosays"
+      ],
+      "Live_Streaming": [
+        "r/twitch",
+        "r/livestreamfail"
+      ],
+      "Podcasts": [
+        "r/serialpodcast",
+        "r/podcasts"
+      ],
+      "Tumblr": [
+        "r/tumblrinaction",
+        "r/tumblr"
+      ],
+      "Twitter": [
+        "r/blackpeopletwitter",
+        "r/scottishpeopletwitter",
+        "r/WhitePeopleTwitter",
+        "r/wholesomebpt",
+        "r/latinopeopletwitter"
+      ],
+      "YouTube": [
+        "r/YoutubeHaiku",
+        "r/youtube",
+        "r/youngpeopleyoutube"
+      ],
+      "YouTubers": [
+        "r/gamegrumps",
+        "r/h3h3productions",
+        "r/CGPGrey",
+        "r/yogscast",
+        "r/jontron",
+        "r/Idubbbz",
+        "r/defranco",
+        "r/cynicalbrit",
+        "r/pyrocynical",
+        "r/SovietWomble",
+        "r/RedLetterMedia",
+        "r/videogamedunkey",
+        "r/loltyler1",
+        "r/ksi",
+        "r/MiniLadd",
+        "r/jacksepticeye",
+        "r/pewdiepiesubmissions",
+        "r/pewdiepie",
+        "r/roosterteeth",
+        "r/funhaus",
+        "r/rwby",
+        "r/cowchop"
+      ]
+    },
+    "Movies": {
+      "General": [
+        "r/movies",
+        "r/documentaries",
+        "r/fullmoviesonyoutube",
+        "r/truefilm",
+        "r/bollywoodrealism",
+        "r/moviedetails",
+        "r/moviesinthemaking",
+        "r/fullmoviesonvimeo",
+        "r/continuityporn",
+        "r/ghibli",
+        "r/cinematography",
+        "r/shittymoviedetails",
+        "r/moviescirclejerk"
+      ],
+      "Individual_Movies": [
+        "r/starwars",
+        "r/harrypotter",
+        "r/lotr",
+        "r/lotrmemes"
+      ],
+      "Comic_Movies": [
+        "r/marvelstudios",
+        "r/batman",
+        "r/DC_Cinematic",
+        "r/thanosdidnothingwrong",
+        "r/inthesoulstone"
+      ]
+    },
+    "Music": {
+      "General": [
+        "r/music",
+        "r/listentothis",
+        "r/WeAreTheMusicMakers",
+        "r/mashups",
+        "r/vinyl",
+        "r/futurebeats",
+        "r/musictheory",
+        "r/guitarlessons",
+        "r/spotify",
+        "r/fakealbumcovers",
+        "r/ableton"
+      ],
+      "Artists": [
+        "r/kanye",
+        "r/radiohead",
+        "r/KendrickLamar",
+        "r/gorillaz",
+        "r/frankocean",
+        "r/donaldglover",
+        "r/eminem",
+        "r/brockhampton",
+        "r/beatles",
+        "r/deathgrips",
+        "r/pinkfloyd"
+      ],
+      "Genres": [
+        "r/classicalmusic",
+        "r/jazz",
+        "r/trap",
+        "r/indieheads",
+        "r/gamemusic",
+        "r/outrun",
+        "r/vaporwave"
+      ],
+      "Electronic": [
+        "r/dubstep",
+        "r/electronicmusic",
+        "r/edmproduction",
+        "r/EDM"
+      ],
+      "Hip_Hop": [
+        "r/hiphopheads",
+        "r/hiphopimages"
+      ],
+      "Metal": [
+        "r/Metal",
+        "r/Metalcore"
+      ],
+      "Pop": [
+        "r/spop",
+        "r/kpop",
+        "r/funkopop",
+        "r/popheads"
+      ],
+      "Instruments": [
+        "r/guitar",
+        "r/piano",
+        "r/bass",
+        "r/drums"
+      ]
+    },
+    "Sports": {
+      "General": [
+        "r/sports",
+        "r/running",
+        "r/bicycling",
+        "r/golf",
+        "r/fishing",
+        "r/skiing",
+        "r/sportsarefun",
+        "r/tennis",
+        "r/rugbyunion",
+        "r/discgolf",
+        "r/cricket",
+        "r/sailing"
+      ],
+      "American_Football": [
+        "r/nfl",
+        "r/CFB",
+        "r/fantasyfootball",
+        "r/nflstreams",
+        "r/patriots",
+        "r/eagles",
+        "r/greenbaypackers",
+        "r/minnesotavikings",
+        "r/losangelesrams"
+      ],
+      "Baseball": [
+        "r/baseball",
+        "r/mlb",
+        "r/fantasybaseball"
+      ],
+      "Basketball": [
+        "r/nba",
+        "r/collegebasketball",
+        "r/nbastreams",
+        "r/fantasybball",
+        "r/warriors",
+        "r/lakers",
+        "r/bostonceltics",
+        "r/torontoraptors",
+        "r/sixers",
+        "r/chicagobulls"
+      ],
+      "Boards": [
+        "r/skateboarding",
+        "r/snowboarding",
+        "r/longboarding"
+      ],
+      "Cars_Racing": [
+        "r/formula1",
+        "r/Nascar"
+      ],
+      "Fighting": [
+        "r/MMA",
+        "r/squaredcircle",
+        "r/theocho",
+        "r/ufc",
+        "r/boxing",
+        "r/wwe",
+        "r/MMAStreams"
+      ],
+      "Hockey": [
+        "r/hockey",
+        "r/nhl",
+        "r/nhlstreams",
+        "r/leafs"
+      ],
+      "Olympics": [
+        "r/olympics",
+        "r/apocalympics2016"
+      ],
+      "Soccer": [
+        "r/soccer",
+        "r/worldcup",
+        "r/Bundesliga",
+        "r/futbol",
+        "r/soccerstreams",
+        "r/MLS",
+        "r/fantasypl",
+        "r/gunners",
+        "r/reddevils",
+        "r/LiverpoolFC",
+        "r/chelseafc"
+      ]
+    },
+    "TV": {
+      "General": [
+        "r/Television",
+        "r/marvelstudios",
+        "r/japanesegameshows",
+        "r/shield",
+        "r/cordcutters",
+        "r/offlinetv",
+        "r/tvdetails"
+      ],
+      "Individual_Shows": [
+        "r/GameOfThrones",
+        "r/BreakingBad",
+        "r/thewalkingdead",
+        "r/community",
+        "r/arresteddevelopment",
+        "r/topgear",
+        "r/StarTrek",
+        "r/HIMYM",
+        "r/firefly",
+        "r/PandR",
+        "r/Sherlock",
+        "r/DunderMifflin",
+        "r/BetterCallSaul",
+        "r/TrueDetective",
+        "r/houseofcards",
+        "r/MakingaMurderer",
+        "r/FlashTV",
+        "r/trailerparkboys",
+        "r/mrrobot",
+        "r/siliconvalleyhbo",
+        "r/strangerthings",
+        "r/supernatural",
+        "r/thegrandtour",
+        "r/AmericanHorrorStory",
+        "r/rupaulsdragrace",
+        "r/westworld",
+        "r/blackmirror",
+        "r/FilthyFrank",
+        "r/orangeisthenewblack",
+        "r/twinpeaks",
+        "r/bigbrother",
+        "r/brooklynninenine",
+        "r/scrubs",
+        "r/howyoudoin",
+        "r/30rock",
+        "r/lifeisstrange",
+        "r/survivor",
+        "r/riverdale",
+        "r/letterkenny"
+      ],
+      "Animated": [
+        "r/Pokemon",
+        "r/AdventureTime",
+        "r/futurama",
+        "r/TheLastAirbender",
+        "r/ArcherFX",
+        "r/southpark",
+        "r/TheSimpsons",
+        "r/mylittlepony",
+        "r/rickandmorty",
+        "r/naruto",
+        "r/stevenuniverse",
+        "r/onepunchman",
+        "r/BobsBurgers",
+        "r/BoJackHorseman",
+        "r/gravityfalls",
+        "r/familyguy",
+        "r/kingofthehill",
+        "r/spongebob"
+      ],
+      "Dragon_Ball_Z": [
+        "r/dbz",
+        "r/DBZDokkanBattle",
+        "r/dragonballfighterz"
+      ],
+      "Doctor_Who": [
+        "r/doctorwho",
+        "r/gallifrey"
+      ],
+      "Its_Always_Sunny": [
+        "r/IASIP",
+        "r/the_dennis"
+      ],
+      "Seinfeld": [
+        "r/seinfeld",
+        "r/redditwritesseinfeld",
+        "r/seinfeldgifs"
+      ],
+      "Netflix": [
+        "r/NetflixBestOf",
+        "r/Netflix",
+        "r/bestofnetflix"
+      ]
+    },
+    "Hobbies_Occupations": {
+      "General": [
+        "r/DIY",
+        "r/cosplay",
+        "r/woodworking",
+        "r/somethingimade",
+        "r/architecture",
+        "r/CoolGuides",
+        "r/WorldBuilding",
+        "r/ifyoulikeblank",
+        "r/DiWHY",
+        "r/knitting",
+        "r/sewing",
+        "r/modelmakers",
+        "r/crochet",
+        "r/ProtectAndServe",
+        "r/digitalnomad",
+        "r/FastWorkers",
+        "r/accounting",
+        "r/preppers",
+        "r/redneckengineering",
+        "r/crossstitch",
+        "r/dumpsterdiving",
+        "r/gunpla",
+        "r/urbanplanning",
+        "r/cubers",
+        "r/blacksmith",
+        "r/toptalent"
+      ],
+      "Aquariums": [
+        "r/aquariums",
+        "r/plantedtank"
+      ],
+      "Arts_Writing": [
+        "r/art",
+        "r/Drawing",
+        "r/crafts",
+        "r/alternativeart",
+        "r/sketchdaily",
+        "r/artporn",
+        "r/glitch_art",
+        "r/illustration",
+        "r/Writing",
+        "r/writingprompts",
+        "r/screenwriting",
+        "r/fountainpens",
+        "r/calligraphy",
+        "r/handwriting",
+        "r/twosentencehorror",
+        "r/brandnewsentence"
+      ],
+      "Automotive": [
+        "r/cars",
+        "r/motorcycles",
+        "r/carporn",
+        "r/justrolledintotheshop",
+        "r/idiotsincars",
+        "r/Shitty_Car_Mods",
+        "r/autos",
+        "r/roadcam",
+        "r/AutoDetailing",
+        "r/awesomecarmods",
+        "r/projectcar",
+        "r/cartalk",
+        "r/roadtrip",
+        "r/dashcamgifs",
+        "r/subaru",
+        "r/teslamotors",
+        "r/bmw",
+        "r/jeep"
+      ],
+      "Design": [
+        "r/CrappyDesign",
+        "r/web_design",
+        "r/graphic_design",
+        "r/design",
+        "r/designporn",
+        "r/InteriorDesign",
+        "r/ATBGE",
+        "r/dontdeadopeninside",
+        "r/assholedesign",
+        "r/keming",
+        "r/logodesign",
+        "r/dangerousdesign"
+      ],
+      "Guns_Combat": [
+        "r/MilitaryPorn",
+        "r/military",
+        "r/combatfootage",
+        "r/militarygfys",
+        "r/army",
+        "r/warshipporn",
+        "r/justbootthings",
+        "r/guns",
+        "r/gunporn",
+        "r/gundeals",
+        "r/ar15",
+        "r/firearms",
+        "r/ccw",
+        "r/airsoft"
+      ],
+      "Job_Finding": [
+        "r/Jobs",
+        "r/forhire",
+        "r/cscareerquestions",
+        "r/workonline"
+      ],
+      "Music_Hobby": [
+        "r/guitar",
+        "r/WeAreTheMusicMakers",
+        "r/edmproduction",
+        "r/piano",
+        "r/ableton",
+        "r/drums",
+        "r/FL_Studio"
+      ],
+      "Outdoors": [
+        "r/urbanexploration",
+        "r/survival",
+        "r/backpacking",
+        "r/camping",
+        "r/homestead",
+        "r/MTB",
+        "r/outdoors",
+        "r/wildernessbackpacking",
+        "r/campinggear",
+        "r/bushcraft",
+        "r/gardening",
+        "r/indoorgarden",
+        "r/campingandhiking",
+        "r/hiking",
+        "r/ultralight"
+      ],
+      "Photography_Film": [
+        "r/photography",
+        "r/itookapicture",
+        "r/Filmmakers",
+        "r/astrophotography",
+        "r/analog",
+        "r/photocritique",
+        "r/postprocessing"
+      ],
+      "Planes": [
+        "r/aviation",
+        "r/flying"
+      ],
+      "Tech_Related": [
+        "r/sysadmin",
+        "r/engineering",
+        "r/compsci",
+        "r/webdev",
+        "r/programmerhumor",
+        "r/graphic_design",
+        "r/mechanicalkeyboards",
+        "r/reverseengineering",
+        "r/plex",
+        "r/multicopter",
+        "r/programminghorror",
+        "r/dailyprogrammer",
+        "r/coding",
+        "r/python",
+        "r/java",
+        "r/cpp",
+        "r/security",
+        "r/buildapc",
+        "r/buildapcsales",
+        "r/buildapcforme",
+        "r/talesfromtechsupport",
+        "r/techsupportgore",
+        "r/techsupport",
+        "r/softwaregore"
+      ],
+      "Tools": [
+        "r/watches",
+        "r/lockpicking",
+        "r/knives",
+        "r/specializedtools",
+        "r/knifeclub"
+      ],
+      "Travel": [
+        "r/travel",
+        "r/solotravel",
+        "r/japantravel",
+        "r/shoestring"
+      ]
+    },
+    "Lifestyle": {
+      "General": [
+        "r/LifeProTips",
+        "r/lifehacks",
+        "r/geek",
+        "r/EDC",
+        "r/simpleliving",
+        "r/tinyhouses",
+        "r/rainmeter",
+        "r/vandwellers",
+        "r/UnethicalLifeProTips",
+        "r/vagabond",
+        "r/illegallifeprotips"
+      ],
+      "Gender": [
+        "r/malelifestyle",
+        "r/malelivingspace",
+        "r/TheGirlSurvivalGuide"
+      ],
+      "Home": [
+        "r/homeimprovement",
+        "r/homelab",
+        "r/homeautomation",
+        "r/battlestations",
+        "r/hometheater"
+      ],
+      "Communities": [
+        "r/teenagers",
+        "r/introvert",
+        "r/ADHD",
+        "r/totallynotrobots",
+        "r/polyamory",
+        "r/teachers",
+        "r/aliensamongus",
+        "r/neverbrokeabone",
+        "r/bipolar"
+      ],
+      "Body_Diet": [
+        "r/beards",
+        "r/vegan",
+        "r/swoleacceptance",
+        "r/tall"
+      ],
+      "LGBT": [
+        "r/lgbt",
+        "r/gaybros",
+        "r/actuallesbians",
+        "r/gaymers",
+        "r/bisexual",
+        "r/askgaybros",
+        "r/ainbow",
+        "r/gay",
+        "r/gay_irl",
+        "r/asktransgender",
+        "r/transgender"
+      ],
+      "Parenting": [
+        "r/parenting",
+        "r/daddit",
+        "r/babybumps"
+      ],
+      "Drugs": {
+        "Alcohol": [
+          "r/drunk",
+          "r/scotch",
+          "r/stopdrinking",
+          "r/cocktails",
+          "r/wine",
+          "r/bourbon",
+          "r/whiskey"
+        ],
+        "Beer": [
+          "r/beer",
+          "r/homebrewing",
+          "r/showerbeer",
+          "r/beerporn"
+        ],
+        "Marijuana": [
+          "r/trees",
+          "r/marijuana",
+          "r/microgrowery",
+          "r/eldertrees",
+          "r/leaves",
+          "r/weed",
+          "r/weedstocks",
+          "r/cannabis"
+        ],
+        "Other_Drugs": [
+          "r/drugs",
+          "r/electronic_cigarette",
+          "r/stonerengineering",
+          "r/Nootropics",
+          "r/LSD",
+          "r/vaporents",
+          "r/Vaping",
+          "r/stopsmoking",
+          "r/shrooms",
+          "r/dmt"
+        ]
+      },
+      "Exercise_Health": {
+        "Mental": [
+          "r/GetMotivated",
+          "r/health",
+          "r/ZenHabits",
+          "r/motivation",
+          "r/LucidDreaming",
+          "r/meditation",
+          "r/Psychonaut",
+          "r/mentalhealth"
+        ],
+        "Physical": [
+          "r/Fitness",
+          "r/xxfitness"
+        ],
+        "Diet": [
+          "r/fitmeals",
+          "r/paleo",
+          "r/nutrition",
+          "r/vegetarian",
+          "r/leangains",
+          "r/HealthyFood",
+          "r/intermittentfasting",
+          "r/fasting",
+          "r/keto",
+          "r/ketorecipes",
+          "r/ketogains"
+        ],
+        "Exercise": [
+          "r/bicycling",
+          "r/yoga",
+          "r/skateboarding",
+          "r/climbing",
+          "r/backpacking",
+          "r/bjj",
+          "r/skiing",
+          "r/crossfit"
+        ],
+        "Lifting": [
+          "r/bodybuilding",
+          "r/WeightRoom",
+          "r/powerlifting"
+        ],
+        "Running": [
+          "r/running",
+          "r/c25k"
+        ],
+        "Medicine": [
+          "r/Medicine",
+          "r/Coronavirus",
+          "r/COVID19"
+        ],
+        "Weight_Control": [
+          "r/loseit",
+          "r/bodyweightfitness",
+          "r/gainit",
+          "r/flexibility",
+          "r/progresspics",
+          "r/brogress"
+        ]
+      },
+      "Fashion_Beauty": {
+        "Body_Image": [
+          "r/makeupaddiction",
+          "r/SkincareAddiction",
+          "r/beards",
+          "r/wicked_edge",
+          "r/RedditLaqueristas",
+          "r/AsianBeauty",
+          "r/piercing"
+        ],
+        "Hair": [
+          "r/FancyFollicles",
+          "r/malehairadvice",
+          "r/curlyhair"
+        ],
+        "Tattoos": [
+          "r/tattoos",
+          "r/badtattoos",
+          "r/tattoo"
+        ],
+        "Fashion": [
+          "r/malefashionadvice",
+          "r/frugalmalefashion",
+          "r/femalefashionadvice",
+          "r/thriftstorehauls",
+          "r/fashion",
+          "r/streetwear",
+          "r/malefashion",
+          "r/supremeclothing",
+          "r/FashionReps",
+          "r/designerreps"
+        ],
+        "Shoes": [
+          "r/sneakers",
+          "r/repsneakers",
+          "r/goodyearwelt"
+        ]
+      },
+      "Food": {
+        "General": [
+          "r/food",
+          "r/FoodPorn",
+          "r/foodhacks",
+          "r/shittyfoodporn",
+          "r/eatsandwiches",
+          "r/nutrition",
+          "r/mealtimevideos",
+          "r/WeWantPlates",
+          "r/forbiddensnacks",
+          "r/seriouseats",
+          "r/spicy"
+        ],
+        "Cooking": [
+          "r/cooking",
+          "r/slowcooking",
+          "r/askculinary",
+          "r/baking",
+          "r/mealprepsunday",
+          "r/breadit",
+          "r/cookingforbeginners",
+          "r/castiron",
+          "r/instantpot",
+          "r/sousvide"
+        ],
+        "Diets": [
+          "r/EatCheapAndHealthy",
+          "r/fitmeals",
+          "r/budgetfood",
+          "r/ketorecipes",
+          "r/vegan",
+          "r/veganrecipes",
+          "r/intermittentfasting",
+          "r/fasting",
+          "r/HealthyFood"
+        ],
+        "Drinks": [
+          "r/coffee",
+          "r/tea"
+        ],
+        "Recipes": [
+          "r/recipes",
+          "r/gifrecipes",
+          "r/veganrecipes"
+        ],
+        "Specific_Food": [
+          "r/pizza",
+          "r/grilledcheese",
+          "r/ramen",
+          "r/bbq",
+          "r/sushi"
+        ]
+      },
+      "Money": {
+        "General": [
+          "r/PersonalFinance",
+          "r/Entrepreneur",
+          "r/beermoney",
+          "r/startups",
+          "r/finance",
+          "r/economy",
+          "r/financialindependence",
+          "r/realestate",
+          "r/flipping",
+          "r/antimlm"
+        ],
+        "Investing_Stocks": [
+          "r/investing",
+          "r/wallstreetbets",
+          "r/millionairemakers",
+          "r/options",
+          "r/pennystocks"
+        ],
+        "Budget": [
+          "r/frugal",
+          "r/EatCheapAndHealthy",
+          "r/frugalmalefashion",
+          "r/budgetfood",
+          "r/povertyfinance"
+        ],
+        "Crypto": [
+          "r/Bitcoin",
+          "r/dogecoin",
+          "r/CryptoCurrency",
+          "r/ethereum",
+          "r/ethtrade",
+          "r/litecoin",
+          "r/btc",
+          "r/garlicoin",
+          "r/cardano"
+        ]
+      }
+    },
+    "Technology": {
+      "General": [
+        "r/technology",
+        "r/internetisbeautiful",
+        "r/futurology",
+        "r/pcmasterrace",
+        "r/buildapc",
+        "r/netsec",
+        "r/gamedev",
+        "r/design",
+        "r/engineering",
+        "r/jailbreak",
+        "r/compsci",
+        "r/tech",
+        "r/hacking",
+        "r/privacy",
+        "r/torrents",
+        "r/networking",
+        "r/piracy",
+        "r/virtualreality",
+        "r/opensource",
+        "r/unixporn"
+      ],
+      "3D_Printing": [
+        "r/3Dprinting",
+        "r/functionalprint"
+      ],
+      "Business_Tech": [
+        "r/nintendo",
+        "r/spacex",
+        "r/nasa",
+        "r/amd",
+        "r/nvidia",
+        "r/photoshop",
+        "r/firefox"
+      ],
+      "Android": [
+        "r/Android",
+        "r/AndroidApps",
+        "r/AndroidGaming",
+        "r/AndroidDev",
+        "r/AndroidThemes",
+        "r/oneplus"
+      ],
+      "Apple": [
+        "r/apple",
+        "r/iphone",
+        "r/mac",
+        "r/ipad",
+        "r/applewatch"
+      ],
+      "Gadgets": [
+        "r/gadgets",
+        "r/raspberry_pi",
+        "r/electronics",
+        "r/arduino",
+        "r/gopro",
+        "r/blender",
+        "r/amazonecho",
+        "r/RetroPie"
+      ],
+      "Hardware": [
+        "r/hardware",
+        "r/hardwareswap"
+      ],
+      "Google": [
+        "r/google",
+        "r/chromecast",
+        "r/googlepixel",
+        "r/googlehome"
+      ],
+      "Linux": [
+        "r/linux",
+        "r/linux_gaming",
+        "r/linux4noobs",
+        "r/linuxmasterrace",
+        "r/archlinux"
+      ],
+      "Microsoft": [
+        "r/Windows10",
+        "r/windows",
+        "r/excel",
+        "r/surface",
+        "r/microsoft"
+      ],
+      "Data": [
+        "r/dataisbeautiful",
+        "r/DataHoarder",
+        "r/datascience"
+      ],
+      "Digital_Currency": [
+        "r/Bitcoin",
+        "r/dogecoin",
+        "r/CryptoCurrency",
+        "r/ethereum",
+        "r/ethtrader",
+        "r/btc",
+        "r/litecoin",
+        "r/bitcoinmarkets",
+        "r/cryptomarkets",
+        "r/monero",
+        "r/neo"
+      ],
+      "Programming": [
+        "r/programming",
+        "r/learnprogramming",
+        "r/python",
+        "r/java",
+        "r/javascript",
+        "r/learnpython",
+        "r/excel",
+        "r/unity3d",
+        "r/reactjs"
+      ],
+      "Sound": [
+        "r/audiophile",
+        "r/headphones",
+        "r/audioengineering"
+      ]
+    },
+    "Humor": {
+      "General": [
+        "r/funny",
+        "r/humor",
+        "r/contagiouslaughter",
+        "r/standupcomedy",
+        "r/ProgrammerHumor",
+        "r/prematurecelebration",
+        "r/ChildrenFallingOver",
+        "r/dadreflexes",
+        "r/kenm",
+        "r/politicalhumor",
+        "r/accidentalcomedy",
+        "r/funnyandsad",
+        "r/kidsarefuckingstupid",
+        "r/suspiciouslyspecific",
+        "r/oddlyspecific",
+        "r/rimjob_steve",
+        "r/dark_humor",
+        "r/stepdadreflexes",
+        "r/congratslikeimfive",
+        "r/darkhumorandmemes"
+      ],
+      "Comedy": [
+        "r/ComedyCemetery",
+        "r/comedyheaven",
+        "r/comedynecromancy",
+        "r/comedyhomicide"
+      ],
+      "Jokes": [
+        "r/Jokes",
+        "r/dadjokes",
+        "r/standupshots",
+        "r/punny",
+        "r/antijokes",
+        "r/meanjokes",
+        "r/3amjokes",
+        "r/puns",
+        "r/WordAvalanches",
+        "r/darkjokes"
+      ]
+    },
+    "Animals": {
+      "General": [
+        "r/AnimalsBeingJerks",
+        "r/AnimalsBeingBros",
+        "r/AnimalPorn",
+        "r/AnimalsBeingDerps",
+        "r/likeus",
+        "r/stoppedworking",
+        "r/hitmanimals",
+        "r/animaltextgifs",
+        "r/BeforeNAfterAdoption",
+        "r/sneks",
+        "r/TsundereSharks",
+        "r/whatsthisbug",
+        "r/HybridAnimals",
+        "r/zoomies",
+        "r/brushybrushy",
+        "r/bigboye",
+        "r/mlem",
+        "r/Floof",
+        "r/shittyanimalfacts",
+        "r/animalsthatlovemagic",
+        "r/spiderbro",
+        "r/properanimalnames",
+        "r/animalsdoingstuff",
+        "r/sploot"
+      ],
+      "Birds": [
+        "r/birdswitharms",
+        "r/superbowl",
+        "r/birbs",
+        "r/partyparrot",
+        "r/birdsbeingdicks",
+        "r/birdsarentreal"
+      ],
+      "Mammals": [
+        "r/babyelephantgifs",
+        "r/sloths",
+        "r/foxes",
+        "r/trashpandas",
+        "r/happycowgifs",
+        "r/rabbits",
+        "r/goatparkour",
+        "r/bearsdoinghumanthings"
+      ],
+      "Cats": [
+        "r/cats",
+        "r/startledcats",
+        "r/catpictures",
+        "r/catsstandingup",
+        "r/catpranks",
+        "r/meow_irl",
+        "r/holdmycatnip",
+        "r/catslaps",
+        "r/thecatdimension",
+        "r/babybigcatgifs",
+        "r/catloaf",
+        "r/thisismylifemeow",
+        "r/cattaps",
+        "r/teefies",
+        "r/tuckedinkitties",
+        "r/catsareassholes",
+        "r/stuffoncats",
+        "r/bigcatgifs",
+        "r/jellybeantoes",
+        "r/catsareliquid",
+        "r/catgifs",
+        "r/blackcats",
+        "r/supermodelcats",
+        "r/chonkers",
+        "r/catswithjobs",
+        "r/catswhoyell",
+        "r/whatswrongwithyourcat",
+        "r/illegallysmolcats"
+      ],
+      "Dogs": [
+        "r/dogs",
+        "r/dogpictures",
+        "r/dogtraining",
+        "r/woof_irl",
+        "r/WhatsWrongWithYourDog",
+        "r/dogberg",
+        "r/dogswithjobs",
+        "r/masterreturns",
+        "r/barkour",
+        "r/blop",
+        "r/puppysmiles",
+        "r/puppies",
+        "r/petthedamndog"
+      ],
+      "Dog_Breeds": [
+        "r/corgi",
+        "r/Pitbulls",
+        "r/goldenretrievers",
+        "r/incorgnito",
+        "r/babycorgis"
+      ]
+    },
+    "News_Politics": {
+      "News": [
+        "r/worldnews",
+        "r/news",
+        "r/nottheonion",
+        "r/UpliftingNews",
+        "r/offbeat",
+        "r/gamernews",
+        "r/floridaman",
+        "r/truecrime"
+      ],
+      "Fake_News": [
+        "r/TheOnion",
+        "r/AteTheOnion"
+      ],
+      "Nostalgia": [
+        "r/OldSchoolCool",
+        "r/TheWayWeWere",
+        "r/nostalgia",
+        "r/vinyl",
+        "r/forwardsfromgrandma",
+        "r/oldphotosinreallife"
+      ]
+    },
+    "SFW_Porn_Network": [
+      "r/EarthPorn",
+      "r/HistoryPorn",
+      "r/FoodPorn",
+      "r/JusticePorn",
+      "r/AbandonedPorn",
+      "r/SpacePorn",
+      "r/RoomPorn",
+      "r/QuotesPorn",
+      "r/MapPorn",
+      "r/CityPorn",
+      "r/carporn",
+      "r/humanporn",
+      "r/penmanshipporn",
+      "r/militaryporn",
+      "r/DesignPorn",
+      "r/ThingsCutInHalfPorn",
+      "r/ArchitecturePorn",
+      "r/ExposurePorn",
+      "r/futureporn",
+      "r/waterporn",
+      "r/machineporn",
+      "r/animalporn",
+      "r/movieposterporn",
+      "r/illusionporn",
+      "r/destructionporn",
+      "r/adporn",
+      "r/artefactporn",
+      "r/gunporn",
+      "r/skyporn",
+      "r/powerwashingporn",
+      "r/ArtPorn",
+      "r/InfrastructurePorn",
+      "r/shockwaveporn",
+      "r/productporn",
+      "r/macroporn",
+      "r/cabinporn",
+      "r/houseporn",
+      "r/mineralporn",
+      "r/microporn"
+    ],
+    "Religion_Beliefs": {
+      "General": [
+        "r/Psychonaut",
+        "r/Buddhism",
+        "r/Stoicism",
+        "r/occult"
+      ],
+      "Atheism": [
+        "r/atheism",
+        "r/trueatheism"
+      ],
+      "Christianity": [
+        "r/Christianity",
+        "r/dankchristianmemes",
+        "r/exmormon",
+        "r/Catholicism"
+      ],
+      "Philosophy": [
+        "r/philosophy",
+        "r/askphilosophy"
+      ]
+    },
+    "Relationships": {
+      "General": [
+        "r/socialskills",
+        "r/socialengineering",
+        "r/weddingplanning"
+      ],
+      "Family": [
+        "r/Parenting",
+        "r/childfree",
+        "r/raisedbynarcissists",
+        "r/daddit",
+        "r/justnomil",
+        "r/justnofamily"
+      ],
+      "Relationships": [
+        "r/relationships",
+        "r/relationship_advice",
+        "r/dating_advice",
+        "r/breakups",
+        "r/dating"
+      ],
+      "Online_Relationships": [
+        "r/Tinder",
+        "r/OKCupid",
+        "r/r4r",
+        "r/longdistance"
+      ],
+      "Sex": [
+        "r/sex",
+        "r/seduction",
+        "r/nofap",
+        "r/deadbedrooms",
+        "r/polyamory"
+      ],
+      "Self_Improvement": [
+        "r/GetMotivated",
+        "r/QuotesPorn",
+        "r/getdisciplined",
+        "r/happy",
+        "r/productivity",
+        "r/DecidingToBeBetter",
+        "r/mademesmile",
+        "r/selfimprovement",
+        "r/humansbeingbros",
+        "r/GetStudying",
+        "r/motivation"
+      ]
+    },
+    "Other": {
+      "Conspiracy": [
+        "r/conspiracy",
+        "r/skeptic",
+        "r/karmaconspiracy",
+        "r/UFOs",
+        "r/conspiratard",
+        "r/scp",
+        "r/birdsarentreal",
+        "r/conspiracytheories"
+      ],
+      "Cringe": [
+        "r/cringepics",
+        "r/cringe",
+        "r/instant_regret",
+        "r/blunderyears",
+        "r/facepalm",
+        "r/fatlogic",
+        "r/publicfreakout",
+        "r/actualpublicfreakouts",
+        "r/lewronggeneration",
+        "r/fellowkids",
+        "r/sadcringe",
+        "r/corporatefacepalm",
+        "r/4PanelCringe",
+        "r/amibeingdetained",
+        "r/watchpeopledieinside",
+        "r/technicallythetruth",
+        "r/accidentalracism",
+        "r/engrish",
+        "r/wokekids",
+        "r/masterhacker",
+        "r/cringetopia",
+        "r/holup",
+        "r/agedlikemilk",
+        "r/tiktokcringe"
+      ],
+      "Called_Out": [
+        "r/facepalm",
+        "r/quityourbullshit",
+        "r/thathappened",
+        "r/delusionalartists",
+        "r/murderedbywords",
+        "r/woooosh",
+        "r/boneappletea",
+        "r/iamatotalpieceofshit",
+        "r/suicidebywords",
+        "r/wowthanksimcured",
+        "r/confidentlyincorrect",
+        "r/rareinsults",
+        "r/clevercomebacks"
+      ],
+      "Neckbeard": [
+        "r/niceguys",
+        "r/mallninjashit",
+        "r/ChoosingBeggars",
+        "r/gatekeeping",
+        "r/inceltears",
+        "r/nothowdrugswork",
+        "r/virginsvschad",
+        "r/nicegirls",
+        "r/notliketheothergirls",
+        "r/entitledbitch",
+        "r/iamverysmart",
+        "r/iamverybadass",
+        "r/justneckbeardthings",
+        "r/neckbeardnests",
+        "r/entitledparents",
+        "r/insaneparents",
+        "r/shitmomgroupssay"
+      ],
+      "Cute": [
+        "r/aww",
+        "r/cats",
+        "r/animalsbeingjerks",
+        "r/animalsbeingbros",
+        "r/Awwducational",
+        "r/dogs",
+        "r/corgi",
+        "r/thisismylifenow",
+        "r/blep",
+        "r/eyebeach",
+        "r/tippytaps",
+        "r/awww",
+        "r/babycorgis"
+      ],
+      "WTF_Weird": [
+        "r/WTF",
+        "r/DeepIntoYouTube",
+        "r/fifthworldproblems",
+        "r/awwwtf",
+        "r/wellthatsucks",
+        "r/streetfights",
+        "r/yesyesyesyesno",
+        "r/wtfstockphotos",
+        "r/oddlyterrifying",
+        "r/mildlyinfuriating",
+        "r/crappydesign",
+        "r/rage",
+        "r/gifsthatendtoosoon",
+        "r/makemesuffer",
+        "r/cursedimages",
+        "r/cursedcomments",
+        "r/blursedimages",
+        "r/imgoingtohellforthis",
+        "r/toosoon",
+        "r/trashy",
+        "r/subwaycreatures"
+      ],
+      "Parodies": [
+        "r/firstworldanarchists",
+        "r/unexpectedthuglife",
+        "r/montageparodies",
+        "r/OSHA",
+        "r/hailcorporate",
+        "r/im14andthisisdeep",
+        "r/bollywoodrealism",
+        "r/AccidentalRenaissance",
+        "r/maliciouscompliance",
+        "r/fakehistoryporn"
+      ],
+      "Visually_Appealing": [
+        "r/AbandonedPorn",
+        "r/OddlySatisfying",
+        "r/RoomPorn",
+        "r/minimalism",
+        "r/CityPorn",
+        "r/Cinemagraphs",
+        "r/ImaginaryLandscapes",
+        "r/eyebleach",
+        "r/DesignPorn",
+        "r/perfectloops",
+        "r/perfectfit",
+        "r/powerwashingporn",
+        "r/cozyplaces",
+        "r/raining",
+        "r/satisfyingasfuck"
+      ],
+      "Unexpected": [
+        "r/unexpected",
+        "r/UnexpectedThugLife",
+        "r/misleadingthumbnails",
+        "r/unexpectedjihad",
+        "r/slygifs",
+        "r/blackmagicfuckery",
+        "r/unexpectedhogwarts"
+      ],
+      "Nature": [
+        "r/earthporn",
+        "r/hardcoreaww",
+        "r/hitmanimals",
+        "r/natureisfuckinglit",
+        "r/heavyseas",
+        "r/marijuanaenthusiasts",
+        "r/succulents",
+        "r/mycology",
+        "r/bonsai",
+        "r/houseplants",
+        "r/natureismetal",
+        "r/Natureisbrutal",
+        "r/weathergifs",
+        "r/tropicalweather"
+      ],
+      "Mind_Blowing": [
+        "r/woahdude",
+        "r/frisson",
+        "r/asmr",
+        "r/VaporwaveAesthetics",
+        "r/glitchinthematrix"
+      ],
+      "Misc": [
+        "r/holdmybeer",
+        "r/holdmyjuicebox",
+        "r/holdmyfries",
+        "r/holdmybeaker",
+        "r/holdmycosmo",
+        "r/holdmycatnip",
+        "r/holdmyredbull",
+        "r/fiftyfifty",
+        "r/firstworldproblems",
+        "r/hmmm",
+        "r/instantkarma",
+        "r/unpopularopinion",
+        "r/nextfuckinglevel",
+        "r/therewasanattempt",
+        "r/notmyjob",
+        "r/sweatypalms",
+        "r/2healthbars",
+        "r/confusing_perspective",
+        "r/collapse",
+        "r/instantregret",
+        "r/whatintarnation",
+        "r/idiotsnearlydying",
+        "r/chaoticgood"
+      ]
+    }
+  },
+  "NSFW": {
+    "General": [
+      "r/nsfw",
+      "r/nsfw2",
+      "r/bonermaterial",
+      "r/nsfw411",
+      "r/iWantToFuckHer",
+      "r/exxxtras",
+      "r/bimbofetish",
+      "r/christiangirls",
+      "r/dirtygaming",
+      "r/sexybutnotporn",
+      "r/femalepov",
+      "r/sexygirls",
+      "r/breedingmaterial",
+      "r/canthold",
+      "r/toocuteforporn",
+      "r/justhotwomen",
+      "r/stripgirls",
+      "r/hotstuffnsfw",
+      "r/uncommonposes",
+      "r/gifsofremoval",
+      "r/nudes",
+      "r/slut",
+      "r/TipOfMyPenis",
+      "r/pornID"
+    ],
+    "Age": {
+      "MILF": [
+        "r/milf",
+        "r/gonewild30plus",
+        "r/preggoporn",
+        "r/realmoms",
+        "r/agedbeauty",
+        "r/40plusgonewild",
+        "r/maturemilf"
+      ],
+      "Teen": [
+        "r/legalteens",
+        "r/collegesluts",
+        "r/adorableporn",
+        "r/legalteensXXX",
+        "r/gonewild18",
+        "r/18_19",
+        "r/just18",
+        "r/PornStarletHQ",
+        "r/fauxbait",
+        "r/barelylegalteens"
+      ]
+    },
+    "Amateur": [
+      "r/realgirls",
+      "r/amateur",
+      "r/homemadexxx",
+      "r/dirtypenpals",
+      "r/FestivalSluts",
+      "r/CollegeAmateurs",
+      "r/amateurcumsluts",
+      "r/nsfw_amateurs",
+      "r/funwithfriends",
+      "r/randomsexiness",
+      "r/amateurporn",
+      "r/normalnudes",
+      "r/ItsAmateurHour",
+      "r/irlgirls",
+      "r/verifiedamateurs",
+      "r/NSFWverifiedamateurs"
+    ],
+    "Cam": [
+      "r/Camwhores",
+      "r/camsluts",
+      "r/streamersgonewild"
+    ],
+    "GoneWild": {
+      "General": [
+        "r/GoneWild",
+        "r/PetiteGoneWild",
+        "r/gonewildstories",
+        "r/GoneWildTube",
+        "r/treesgonewild",
+        "r/gonewildaudio",
+        "r/GWNerdy",
+        "r/gonemild",
+        "r/altgonewild",
+        "r/gifsgonewild",
+        "r/analgw",
+        "r/gonewildsmiles",
+        "r/onstageGW",
+        "r/RepressedGoneWild",
+        "r/bdsmgw",
+        "r/UnderwearGW",
+        "r/LabiaGW",
+        "r/TributeMe",
+        "r/WeddingsGoneWild",
+        "r/gwpublic",
+        "r/assholegonewild",
+        "r/leggingsgonewild",
+        "r/dykesgonewild",
+        "r/goneerotic",
+        "r/snapchatgw",
+        "r/gonewildhairy",
+        "r/gonewildtrans",
+        "r/ratemynudebody"
+      ],
+      "Age": [
+        "r/gonewild30plus",
+        "r/gonewild18",
+        "r/40plusgonewild"
+      ],
+      "Couples": [
+        "r/GWCouples",
+        "r/gonewildcouples",
+        "r/gwcumsluts",
+        "r/WouldYouFuckMyWife",
+        "r/couplesgonewild"
+      ],
+      "Curves": [
+        "r/gonewildcurvy",
+        "r/GoneWildplus",
+        "r/BigBoobsGW",
+        "r/bigboobsgonewild",
+        "r/mycleavage",
+        "r/gonewildchubby"
+      ],
+      "Ethnicity": [
+        "r/AsiansGoneWild",
+        "r/gonewildcolor",
+        "r/indiansgonewild",
+        "r/latinasgw",
+        "r/pawgtastic"
+      ],
+      "Occupation": [
+        "r/workgonewild",
+        "r/GoneWildScrubs",
+        "r/swingersgw",
+        "r/militarygonewild"
+      ],
+      "Snapchat": [
+        "r/NSFW_Snapchat",
+        "r/snapchat_sluts",
+        "r/snapleaks"
+      ],
+      "Wives": [
+        "r/wifesharing",
+        "r/hotwife",
+        "r/wouldyoufuckmywife",
+        "r/slutwife",
+        "r/naughtywives"
+      ]
+    },
+    "Animated": {
+      "General": [
+        "r/rule34",
+        "r/ecchi",
+        "r/futanari",
+        "r/doujinshi",
+        "r/yiff",
+        "r/furry",
+        "r/monstergirl"
+      ],
+      "Comics": [
+        "r/rule34_comics",
+        "r/sex_comics"
+      ],
+      "Hentai": [
+        "r/hentai",
+        "r/hentai_gif",
+        "r/WesternHentai",
+        "r/hentai_irl",
+        "r/traphentai",
+        "r/hentaibondage"
+      ],
+      "Video_Games": [
+        "r/overwatch_porn",
+        "r/pokeporn",
+        "r/bowsette",
+        "r/rule34lol",
+        "r/rule34overwatch"
+      ]
+    },
+    "BDSM": [
+      "r/BDSM",
+      "r/Bondage",
+      "r/BDSMcommunity",
+      "r/bdsmgw",
+      "r/femdom"
+    ],
+    "Blowjobs": [
+      "r/blowjobs",
+      "r/lipsthatgrip",
+      "r/deepthroat",
+      "r/onherknees",
+      "r/blowjobsandwich",
+      "r/iwanttosuckcock"
+    ],
+    "Body_Parts": {
+      "Ass": [
+        "r/ass",
+        "r/asstastic",
+        "r/facedownassup",
+        "r/assinthong",
+        "r/bigasses",
+        "r/buttplug",
+        "r/TheUnderbun",
+        "r/booty",
+        "r/pawg",
+        "r/paag",
+        "r/cutelittlebutts",
+        "r/hipcleavage",
+        "r/frogbutt",
+        "r/HungryButts",
+        "r/cottontails",
+        "r/lovetowatchyouleave",
+        "r/celebritybutts",
+        "r/cosplaybutts",
+        "r/whooties",
+        "r/booty_queens",
+        "r/twerking"
+      ],
+      "Anal": [
+        "r/anal",
+        "r/analgw",
+        "r/painal",
+        "r/masterofanal",
+        "r/buttsharpies"
+      ],
+      "Asshole": [
+        "r/asshole",
+        "r/AssholeBehindThong",
+        "r/assholegonewild",
+        "r/spreadem",
+        "r/godasshole"
+      ],
+      "Boobs": {
+        "General": [
+          "r/boobies",
+          "r/TittyDrop",
+          "r/boltedontits",
+          "r/boobbounce",
+          "r/boobs",
+          "r/downblouse",
+          "r/homegrowntits",
+          "r/cleavage",
+          "r/breastenvy",
+          "r/youtubetitties",
+          "r/torpedotits",
+          "r/thehangingboobs",
+          "r/page3glamour",
+          "r/tits",
+          "r/amazingtits",
+          "r/titstouchingtits"
+        ],
+        "Busty": [
+          "r/BustyPetite",
+          "r/hugeboobs",
+          "r/stacked",
+          "r/burstingout",
+          "r/BigBoobsGW",
+          "r/bigboobsgonewild",
+          "r/2busty2hide",
+          "r/bigtiddygothgf",
+          "r/bigtitsinbikinis",
+          "r/biggerthanherhead"
+        ],
+        "Nipples": [
+          "r/pokies",
+          "r/ghostnipples",
+          "r/nipples",
+          "r/puffies",
+          "r/lactation"
+        ],
+        "Small": [
+          "r/tinytits",
+          "r/aa_cups"
+        ],
+        "Titfuck": [
+          "r/titfuck",
+          "r/clothedtitfuck"
+        ]
+      },
+      "Face": [
+        "r/braceface"
+      ],
+      "Hair": [
+        "r/GirlswithNeonHair",
+        "r/shorthairchicks",
+        "r/blonde"
+      ],
+      "Legs_Feet": [
+        "r/girlsinyogapants",
+        "r/stockings",
+        "r/legs",
+        "r/tightshorts"
+      ],
+      "Feet": [
+        "r/buttsandbarefeet",
+        "r/feet"
+      ],
+      "Thighs": [
+        "r/datgap",
+        "r/thighhighs",
+        "r/thickthighs",
+        "r/thighdeology"
+      ],
+      "Pussy": [
+        "r/pussy",
+        "r/rearpussy",
+        "r/innie",
+        "r/simps",
+        "r/pelfie",
+        "r/LabiaGW",
+        "r/godpussy",
+        "r/presenting",
+        "r/cameltoe",
+        "r/hairypussy",
+        "r/pantiestotheside",
+        "r/breakingtheseal"
+      ],
+      "Mound": [
+        "r/moundofvenus",
+        "r/pussymound"
+      ],
+      "Skin": [
+        "r/Hotchickswithtattoos",
+        "r/sexyfrex",
+        "r/tanlines",
+        "r/oilporn",
+        "r/ComplexionExcellence"
+      ],
+      "Waist_Tummy": [
+        "r/SexyTummies",
+        "r/theratio"
+      ],
+      "Body_Type": {
+        "General": [
+          "r/bodyperfection",
+          "r/samespecies",
+          "r/athleticgirls",
+          "r/coltish"
+        ],
+        "Curvy_Thick": [
+          "r/gonewildcurvy",
+          "r/curvy",
+          "r/gonewildplus",
+          "r/thick",
+          "r/juicyasians",
+          "r/voluptuous",
+          "r/biggerthanyouthought",
+          "r/jigglefuck",
+          "r/chubby",
+          "r/SlimThick",
+          "r/massivetitsnass",
+          "r/thicker",
+          "r/thickthighs",
+          "r/tightsqueeze",
+          "r/casualjiggles",
+          "r/bbw",
+          "r/gonewildchubby",
+          "r/amazingcurves"
+        ],
+        "Fit": [
+          "r/fitgirls",
+          "r/fitnakedgirls"
+        ],
+        "Petite": [
+          "r/BustyPetite",
+          "r/dirtysmall",
+          "r/petitegonewild",
+          "r/xsmallgirls",
+          "r/funsized",
+          "r/hugedicktinychick",
+          "r/petite",
+          "r/skinnytail"
+        ]
+      }
+    },
+    "Celebrity_Athlete": {
+      "Athlete": [
+        "r/volleyballgirls",
+        "r/Ohlympics"
+      ],
+      "Celebrity": [
+        "r/celebnsfw",
+        "r/WatchItForThePlot",
+        "r/nsfwcelebarchive",
+        "r/celebritypussy",
+        "r/oldschoolcoolNSFW",
+        "r/extramile",
+        "r/jerkofftocelebs",
+        "r/celebritybutts",
+        "r/onoffcelebs",
+        "r/celebswithbigtits",
+        "r/youtubersgonewild"
+      ]
+    },
+    "Cum": {
+      "General": [
+        "r/cumsluts",
+        "r/GirlsFinishingTheJob",
+        "r/cumfetish",
+        "r/amateurcumsluts",
+        "r/cumcoveredfucking",
+        "r/cumhaters",
+        "r/thickloads",
+        "r/before_after_cumsluts",
+        "r/pulsatingcumshots",
+        "r/impressedbycum"
+      ],
+      "Location": [
+        "r/creampies",
+        "r/throatpies",
+        "r/FacialFun",
+        "r/cumonclothes",
+        "r/oralcreampie",
+        "r/creampie"
+      ]
+    },
+    "Emotion": [
+      "r/HappyEmbarrassedGirls",
+      "r/unashamed",
+      "r/borednignored",
+      "r/annoyedtobenude"
+    ],
+    "Ethnicity": {
+      "General": [
+        "r/damngoodinterracial"
+      ],
+      "Asian": [
+        "r/AsianHotties",
+        "r/AsiansGoneWild",
+        "r/realasians",
+        "r/juicyasians",
+        "r/AsianNSFW",
+        "r/nextdoorasians",
+        "r/asianporn",
+        "r/bustyasians",
+        "r/paag"
+      ],
+      "Indian": [
+        "r/IndianBabes",
+        "r/indiansgonewild"
+      ],
+      "Japanese": [
+        "r/NSFW_Japan",
+        "r/javdownloadcenter"
+      ],
+      "Korean": [
+        "r/kpopfap",
+        "r/NSFW_Korea"
+      ],
+      "Ebony": [
+        "r/WomenOfColor",
+        "r/darkangels",
+        "r/blackchickswhitedicks",
+        "r/ebony",
+        "r/Afrodisiac"
+      ],
+      "Ginger": [
+        "r/ginger",
+        "r/redheads"
+      ],
+      "Latina": [
+        "r/latinas",
+        "r/latinasgw",
+        "r/latinacuties"
+      ],
+      "White": [
+        "r/palegirls",
+        "r/pawg",
+        "r/snowwhites",
+        "r/whooties"
+      ]
+    },
+    "Gifs": [
+      "r/NSFW_GIF",
+      "r/nsfw_gifs",
+      "r/porn_gifs",
+      "r/porninfifteenseconds",
+      "r/CuteModeSlutMode",
+      "r/60fpsporn",
+      "r/NSFW_HTML5",
+      "r/the_best_nsfw_gifs",
+      "r/verticalgifs",
+      "r/besthqporngifs"
+    ],
+    "Groups": [
+      "r/twingirls",
+      "r/groupofnudegirls",
+      "r/Ifyouhadtopickone"
+    ],
+    "Hardcore": {
+      "General": [
+        "r/nsfwhardcore",
+        "r/SheLikesItRough",
+        "r/strugglefucking",
+        "r/jigglefuck",
+        "r/whenitgoesin",
+        "r/outercourse",
+        "r/gangbang",
+        "r/pegging",
+        "r/insertions",
+        "r/passionx",
+        "r/xsome",
+        "r/shefuckshim"
+      ],
+      "Cuck": [
+        "r/cuckold",
+        "r/cuckquean"
+      ],
+      "Cum_Inside": [
+        "r/breeding",
+        "r/forcedcreampie"
+      ],
+      "Large_Penis": [
+        "r/hugedicktinychick",
+        "r/amateurgirlsbigcocks",
+        "r/bbcsluts"
+      ],
+      "Positions": [
+        "r/facesitting",
+        "r/nsfw_plowcam",
+        "r/pronebone",
+        "r/facefuck",
+        "r/girlswhoride"
+      ],
+      "High_Quality": [
+        "r/60fpsporn",
+        "r/highresNSFW",
+        "r/NSFW_HTML5"
+      ],
+      "Incest": [
+        "r/incestporn",
+        "r/wincest",
+        "r/incest_gifs"
+      ]
+    },
+    "Individuals": {
+      "Professional_Cam": [
+        "r/remylacroix",
+        "r/Anjelica_Ebbi",
+        "r/BlancNoir",
+        "r/rileyreid",
+        "r/tessafowler",
+        "r/lilyivy",
+        "r/mycherrycrush",
+        "r/gillianbarnes",
+        "r/emilybloom",
+        "r/miamalkova",
+        "r/sashagrey",
+        "r/angelawhite",
+        "r/miakhalifa",
+        "r/alexapearl",
+        "r/missalice_18",
+        "r/lanarhoades",
+        "r/evalovia",
+        "r/GiannaMichaels",
+        "r/erinashford",
+        "r/sextrophies",
+        "r/sabrina_nichole",
+        "r/LiyaSilver",
+        "r/MelissaDebling",
+        "r/AdrianaChechik",
+        "r/abelladanger"
+      ],
+      "Redditors": [
+        "r/sarah_xxx",
+        "r/dollywinks",
+        "r/funsizedasian",
+        "r/Kawaiiikitten",
+        "r/legendarylootz",
+        "r/sexyflowerwater",
+        "r/keriberry_420",
+        "r/justpeachyy",
+        "r/hopelesssofrantic"
+      ]
+    },
+    "Lesbian": [
+      "r/lesbians",
+      "r/StraightGirlsPlaying",
+      "r/girlskissing",
+      "r/mmgirls",
+      "r/dykesgonewild",
+      "r/justfriendshavingfun"
+    ],
+    "Masturbation_Orgasm": {
+      "General": [
+        "r/holdthemoan",
+        "r/O_faces",
+        "r/jilling",
+        "r/gettingherselfoff",
+        "r/quiver",
+        "r/GirlsHumpingThings",
+        "r/forcedorgasms",
+        "r/mmgirls",
+        "r/ruinedorgasms",
+        "r/realahegao"
+      ],
+      "Dildos": [
+        "r/suctiondildos",
+        "r/baddragon"
+      ],
+      "Wet_Women": [
+        "r/grool",
+        "r/squirting"
+      ]
+    },
+    "Men": [
+      "r/ladybonersgw",
+      "r/massivecock",
+      "r/chickflixxx",
+      "r/gaybrosgonewild",
+      "r/sissies",
+      "r/penis",
+      "r/monsterdicks",
+      "r/thickdick"
+    ],
+    "Misogyny": [
+      "r/freeuse",
+      "r/fuckdoll",
+      "r/degradingholes",
+      "r/fuckmeat"
+    ],
+    "Outfits": {
+      "General": [
+        "r/OnOff",
+        "r/nsfwoutfits",
+        "r/girlswithglasses",
+        "r/collared",
+        "r/seethru",
+        "r/sweatermeat",
+        "r/cfnm",
+        "r/nsfwfashion",
+        "r/leotards",
+        "r/whyevenwearanything",
+        "r/shinyporn",
+        "r/gothsluts"
+      ],
+      "Bikinis": [
+        "r/bikinis",
+        "r/bikinibridge",
+        "r/bigtitsinbikinis"
+      ],
+      "Costumes": [
+        "r/nsfwcosplay",
+        "r/nsfwcostumes",
+        "r/girlsinschooluniforms"
+      ],
+      "Dresses_Skirts": [
+        "r/WtSSTaDaMiT",
+        "r/tightdresses",
+        "r/upskirt",
+        "r/SchoolgirlSkirts"
+      ],
+      "Stockings_Socks": [
+        "r/stockings",
+        "r/thighhighs",
+        "r/leggingsgonewild"
+      ],
+      "Pants_Shorts": [
+        "r/Bottomless_Vixens",
+        "r/tightshorts",
+        "r/tight_shorts"
+      ],
+      "Yoga_Pants": [
+        "r/girlsinyogapants",
+        "r/yogapants"
+      ],
+      "Underwear": [
+        "r/lingerie",
+        "r/pantiestotheside"
+      ],
+      "Thongs": [
+        "r/assinthong",
+        "r/AssholeBehindThong"
+      ]
+    },
+    "Professional_Porn": [
+      "r/porn",
+      "r/suicidegirls",
+      "r/GirlsDoPorn",
+      "r/pornstarhq",
+      "r/porninaminute"
+    ],
+    "Public": [
+      "r/ChangingRooms",
+      "r/workgonewild",
+      "r/FlashingGirls",
+      "r/publicflashing",
+      "r/sexinfrontofothers",
+      "r/NotSafeForNature",
+      "r/gwpublic",
+      "r/realpublicnudity",
+      "r/flashingandflaunting",
+      "r/publicsexporn",
+      "r/nakedadventures"
+    ],
+    "Social_Media": {
+      "General": [
+        "r/socialmediasluts",
+        "r/slutsofsnapchat"
+      ],
+      "OnlyFans": [
+        "r/OnlyFans101"
+      ],
+      "TikTok": [
+        "r/tiktoknsfw",
+        "r/tiktokthots",
+        "r/tiktokporn"
+      ],
+      "Trash": [
+        "r/trashyboners",
+        "r/flubtrash"
+      ],
+      "Selfies": [
+        "r/realsexyselfies",
+        "r/nude_selfie"
+      ]
+    },
+    "Trans": [
+      "r/Tgirls",
+      "r/traps",
+      "r/futanari",
+      "r/gonewildtrans",
+      "r/tgifs",
+      "r/shemales",
+      "r/femboys",
+      "r/transporn"
+    ],
+    "Video": [
+      "r/pornvids",
+      "r/nsfw_videos"
+    ],
+    "Meet_People": [
+      "r/dirtysnapchat"
+    ],
+    "Other_NSFW": [
+      "r/randomactsofblowjob",
+      "r/NSFWFunny",
+      "r/pornhubcomments",
+      "r/confusedboners",
+      "r/dirtykikpals",
+      "r/nsfw_wtf",
+      "r/randomactsofmuffdive",
+      "r/stupidslutsclub",
+      "r/sluttyconfessions",
+      "r/drunkdrunkenporn"
+    ],
+    "Gore": [
+      "r/popping",
+      "r/medicalgore"
+    ]
+  }
+}
