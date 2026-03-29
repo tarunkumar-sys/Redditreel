@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import { X } from 'lucide-react';
+import { X, Eye, EyeOff } from 'lucide-react';
 import AppIcon from '@/components/AppIcon';
 import { loginAction, registerAction, getRoleByEmail } from '@/app/actions/auth';
 import { useScrollLock } from '@/lib/useScrollLock';
@@ -22,6 +22,7 @@ export default function LoginModal({ open, onClose, callbackUrl = '/dashboard' }
   const [mounted, setMounted] = useState(false);
   // Per-field errors for instant feedback
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+  const [showPassword, setShowPassword] = useState(false);
 
   useEffect(() => { setMounted(true); }, []);
 
@@ -34,7 +35,12 @@ export default function LoginModal({ open, onClose, callbackUrl = '/dashboard' }
     return () => window.removeEventListener('keydown', handler);
   }, [onClose]);
 
-  const reset = () => { setError(''); setMsg(''); setFieldErrors({}); };
+  const reset = () => { setError(''); setMsg(''); setFieldErrors({}); setShowPassword(false); };
+
+  // Reset showPassword when switching between login/register
+  useEffect(() => {
+    setShowPassword(false);
+  }, [isLogin]);
 
   /* ── Client-side validation (mirrors server rules) ── */
   const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
@@ -231,14 +237,37 @@ export default function LoginModal({ open, onClose, callbackUrl = '/dashboard' }
                   />
                   {fieldErrors.email && <FieldError msg={fieldErrors.email} />}
                 </div>
-                <div>
+                <div style={{ position: 'relative' }}>
                   <input
-                    name="password" type="password"
+                    name="password" type={showPassword ? 'text' : 'password'}
                     placeholder={isLogin ? 'Password' : 'Password (8+ chars, 1 uppercase, 1 number)'}
                     required disabled={loading}
                     onChange={() => setFieldErrors(p => ({ ...p, password: '' }))}
-                    style={{ ...inputStyle, borderColor: fieldErrors.password ? 'rgba(255,68,68,.5)' : undefined }}
+                    style={{ 
+                      ...inputStyle, 
+                      borderColor: fieldErrors.password ? 'rgba(255,68,68,.5)' : undefined,
+                      paddingRight: 44, // Make room for the eye icon
+                    }}
                   />
+                  <button
+                    type="button"
+                    onClick={() => setShowPassword(!showPassword)}
+                    disabled={loading}
+                    tabIndex={-1}
+                    style={{
+                      position: 'absolute', top: '50%', right: 12,
+                      transform: 'translateY(-50%)',
+                      background: 'none', border: 'none',
+                      color: 'rgba(255,255,255,0.4)',
+                      padding: 4, cursor: 'pointer',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      transition: 'color .2s',
+                    }}
+                    onMouseEnter={e => (e.currentTarget.style.color = '#fff')}
+                    onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}
+                  >
+                    {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                  </button>
                   {fieldErrors.password && <FieldError msg={fieldErrors.password} />}
                 </div>
 
