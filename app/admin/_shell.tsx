@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 import {
   LayoutDashboard, Users, BarChart2, ShieldAlert,
   Film, Settings, LogOut, ChevronRight, Menu, ArrowLeft,
@@ -70,10 +70,13 @@ export default function AdminShell({
 }) {
   const [expanded, setExpanded] = useState(false);
   const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const view = searchParams.get('view') || 'overview';
 
   const isActive = (item: NavItem) => {
-    if (item.href === '/admin') return pathname === '/admin' && !window?.location?.search?.includes('view=');
-    return typeof window !== 'undefined' && window.location.href.includes(item.href);
+    const itemUrl = new URL(item.href, 'http://localhost'); // dummy base
+    const itemView = itemUrl.searchParams.get('view') || 'overview';
+    return pathname === '/admin' && view === itemView;
   };
 
   const W = expanded ? 220 : 60;
@@ -134,7 +137,7 @@ export default function AdminShell({
             </p>
           )}
           {NAV.map(item => (
-            <NavLink key={item.id} item={item} expanded={expanded} active={false} />
+            <NavLink key={item.id} item={item} expanded={expanded} active={isActive(item)} />
           ))}
         </nav>
 
@@ -196,7 +199,9 @@ export default function AdminShell({
           <div style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: 12, color: 'var(--text-3)' }}>
             <span>Admin</span>
             <ChevronRight size={12} />
-            <span style={{ color: 'var(--text-1)', fontWeight: 600 }}>Dashboard</span>
+            <span style={{ color: 'var(--text-1)', fontWeight: 600 }}>
+              {view === 'overview' ? 'Overview' : view.charAt(0).toUpperCase() + view.slice(1)}
+            </span>
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <div style={{

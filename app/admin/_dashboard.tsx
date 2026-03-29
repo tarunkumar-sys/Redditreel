@@ -4,7 +4,7 @@ import { useState, useRef, useCallback, useEffect } from 'react';
 import {
   Users, Film, StickyNote, Activity, Shield, TrendingUp,
   Search, Trash2, UserCheck, UserX, Eye, X, BarChart2,
-  ChevronRight, Hash, Clock, Send,
+  ChevronRight, Hash, Clock, Send, Download,
 } from 'lucide-react';
 import { deleteUserAction, suspendUserAction, activateUserAction, getUserDetail } from '@/app/actions/admin';
 import ReelFeed from '@/components/ReelFeed';
@@ -507,13 +507,27 @@ export default function AdminDashboardClient({ stats, view }: { stats: Stats; vi
               <h1 style={{ fontSize: 22, fontWeight: 900, color: 'var(--text-1)', marginBottom: 4 }}>Users</h1>
               <p style={{ fontSize: 13, color: 'var(--text-3)' }}>{stats.usersCount} total accounts</p>
             </div>
-            <div style={{ position: 'relative' }}>
-              <Search size={14} style={{ position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: 'var(--text-3)' }} />
-              <input
-                value={userSearch} onChange={e => setUserSearch(e.target.value)}
-                placeholder="Search users…"
-                style={{ paddingLeft: 34, paddingRight: 14, paddingTop: 9, paddingBottom: 9, borderRadius: 10, border: '1px solid var(--border)', background: 'var(--bg-elevated)', color: 'var(--text-1)', fontSize: 13, outline: 'none', width: 220 }}
-              />
+            <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+              <button
+                onClick={() => window.open('/api/admin/export/users')}
+                style={{
+                  height: 38, padding: '0 16px', borderRadius: 10, border: '1px solid var(--border)',
+                  background: 'var(--bg-elevated)', color: 'var(--text-1)', fontSize: 12, fontWeight: 700,
+                  cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8, transition: 'background .2s',
+                }}
+                onMouseEnter={e => (e.currentTarget as HTMLButtonElement).style.background = 'var(--bg-hover)'}
+                onMouseLeave={e => (e.currentTarget as HTMLButtonElement).style.background = 'var(--bg-elevated)'}
+              >
+                <Download size={14} /> Export CSV
+              </button>
+              <div style={{ position: 'relative' }}>
+                <Search size={14} style={{ position: 'absolute', left: 12, top: '50%', transform: 'translateY(-50%)', color: 'var(--text-3)' }} />
+                <input
+                  value={userSearch} onChange={e => setUserSearch(e.target.value)}
+                  placeholder="Search users…"
+                  style={{ paddingLeft: 34, paddingRight: 14, paddingTop: 9, paddingBottom: 9, borderRadius: 10, border: '1px solid var(--border)', background: 'var(--bg-elevated)', color: 'var(--text-1)', fontSize: 13, outline: 'none', width: 220 }}
+                />
+              </div>
             </div>
           </div>
 
