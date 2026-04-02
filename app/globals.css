@@ -116,6 +116,10 @@ body {
 
 /* ── Mobile overrides ── */
 @media (max-width: 768px) {
+  .hide-mobile {
+    display: none !important;
+  }
+
   .app-shell {
     flex-direction: column;
   }
@@ -769,6 +773,12 @@ body {
 .notepad-enter { animation: slideInLeft .25s ease both; }
 
 /* Sidebar view switcher tabs (Chat / Notepad) */
+@media (max-width: 768px) {
+  .app-sidebar > .sidebar-tabs {
+    display: none !important;
+  }
+}
+
 .sidebar-tabs {
   display: flex;
   border-bottom: 1px solid var(--border);

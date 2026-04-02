@@ -104,8 +104,10 @@ export default function UserAvatarPill({
   return (
     <div
       ref={ref}
+      className="hide-mobile"
       style={{ position: "fixed", top: 12, right: 16, zIndex: 400 }}
     >
+      <style>{`@media (max-width: 768px) { .hide-mobile { display: none !important; } }`}</style>
       {/* ── Pill trigger ── */}
       <button
         onClick={() => setOpen((o) => !o)}
