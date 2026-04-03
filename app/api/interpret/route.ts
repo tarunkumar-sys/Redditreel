@@ -165,15 +165,32 @@ export async function POST(request: NextRequest) {
     }
 
     const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-    const kw   = interpreted.keywords.length > 0 ? interpreted.keywords.join(', ') : trimmedQuery;
+
+    const openers = [
+      `Sure thing!`,
+      `On it!`,
+      `Got it!`,
+      `Let's go!`,
+      `Nice choice!`,
+    ];
+    const closers = [
+      `Loading your feed now.`,
+      `Your feed is on its way.`,
+      `Hang tight, fetching results.`,
+      `Give me a sec…`,
+    ];
+    const sortPhrases: Record<string, string> = {
+      hot: 'what\'s hot',
+      top: 'the top-rated',
+      new: 'the freshest',
+    };
+
+    const opener = openers[Math.floor(Math.random() * openers.length)];
+    const closer = closers[Math.floor(Math.random() * closers.length)];
+    const sortPhrase = sortPhrases[interpreted.sort] ?? interpreted.sort;
 
     const chatResponse =
-      `Found **${cap(interpreted.category)}** content for you!\n\n` +
-      `**Query:** ${trimmedQuery}\n` +
-      `**Keywords:** ${kw}\n` +
-      `**Sort by:** ${cap(interpreted.sort)}\n` +
-      `**Subreddits:** r/${interpreted.subreddits.slice(0, 3).join(', r/')}\n\n` +
-      `Fetching your reel feed now…`;
+      `${opener} Fetching ${sortPhrase} **${cap(interpreted.category)}** videos for you. ${closer}`;
 
     return NextResponse.json({
       success: true,

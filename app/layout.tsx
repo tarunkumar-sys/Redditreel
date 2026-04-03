@@ -3,26 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { ToastProvider } from '@/components/ToastContext';
 import SecurityInitializer from '@/components/SecurityInitializer';
-import { prisma } from '@/auth';
-import bcrypt from 'bcryptjs';
-
 const inter = Inter({ subsets: ['latin'] });
-
-// Ensure a default admin account exists — runs server-side only, never in Edge
-async function ensureAdminUser() {
-  try {
-    const adminEmail = 'admin@reddit.com';
-    const existing = await prisma.user.findUnique({ where: { email: adminEmail } });
-    if (!existing) {
-      const hashed = await bcrypt.hash('admin', 10);
-      await prisma.user.create({
-        data: { email: adminEmail, name: 'Admin', password: hashed, role: 'ADMIN' },
-      });
-    }
-  } catch {
-    // silently ignore — db may not be ready on first cold start
-  }
-}
 
 export const metadata: Metadata = {
   title: 'Reddit Reel AI — Discover Videos You\'ll Love',
@@ -40,9 +21,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  await ensureAdminUser();
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} antialiased`}>

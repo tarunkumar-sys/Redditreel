@@ -193,6 +193,15 @@ export default function DashboardPage({ avatar }: { avatar?: React.ReactNode }) 
     setSavedReels(prev => prev.map(r => r.id === updated.id ? updated : r));
   }, []);
 
+  const onReelClick = useCallback((reel: SavedReel) => {
+    // Put the clicked reel at the front of the feed and switch to feed view
+    setReels(prev => {
+      const without = prev.filter(r => r.id !== reel.id);
+      return [reel, ...without];
+    });
+    setMobileTab('feed');
+  }, []);
+
   const savedIds = new Set(savedReels.map(r => r.id));
   const openNotepad = () => { setSidebarView('notepad'); setMobileTab('notes'); };
   const openChat    = () => { setSidebarView('chat');    if (mobileTab === 'notes') setMobileTab('chat'); };
@@ -227,7 +236,7 @@ export default function DashboardPage({ avatar }: { avatar?: React.ReactNode }) 
           />
         )}
         {sidebarView === 'notepad' && (
-          <Notepad savedReels={savedReels} onRemoveReel={onRemoveReel} onUpdateReel={onUpdateReel} />
+          <Notepad savedReels={savedReels} onRemoveReel={onRemoveReel} onUpdateReel={onUpdateReel} onReelClick={onReelClick} />
         )}
       </aside>
 

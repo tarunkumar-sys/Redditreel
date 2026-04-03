@@ -23,6 +23,7 @@ interface Props {
   savedReels:  SavedReel[];
   onRemoveReel: (id: string) => void;
   onUpdateReel: (reel: SavedReel) => void;
+  onReelClick?: (reel: SavedReel) => void;
 }
 
 /* ── New Board Modal ── */
@@ -99,7 +100,7 @@ function NewBoardModal({ onClose, onCreate }: { onClose: () => void; onCreate: (
 }
 
 /* ── Main Component ── */
-export default function Notepad({ savedReels, onRemoveReel, onUpdateReel }: Props) {
+export default function Notepad({ savedReels, onRemoveReel, onUpdateReel, onReelClick }: Props) {
   const [notes,         setNotes]         = useState<SavedNote[]>([]);
   const [boards,        setBoards]        = useState<Board[]>([]);
   const [draft,         setDraft]         = useState('');
@@ -257,16 +258,29 @@ export default function Notepad({ savedReels, onRemoveReel, onUpdateReel }: Prop
                           draggable
                           onDragStart={e => { e.dataTransfer.setData('text/plain', reel.id); setDraggingReel(reel); }}
                           onDragEnd={() => setDraggingReel(null)}
+                          onClick={() => onReelClick?.(reel)}
+                          style={{ cursor: 'pointer' }}
                         >
-                          {reel.imageUrl ? (
-                            <img src={reel.imageUrl} alt={reel.title} className="saved-reel-thumb"
-                              onError={e => { (e.target as HTMLImageElement).style.display = 'none'; }} />
-                          ) : (
-                            <div className="saved-reel-thumb-placeholder">
-                              <Film size={20} color="var(--text-3)" strokeWidth={1.5} />
-                            </div>
-                          )}
-                          <button className="sr-rm" onClick={() => onRemoveReel(reel.id)} aria-label="Remove">
+                          {(() => {
+                            const thumb = reel.imageUrl || reel.thumbnail;
+                            return thumb ? (
+                              <img src={thumb} alt={reel.title} className="saved-reel-thumb"
+                                onError={e => {
+                                  const img = e.target as HTMLImageElement;
+                                  // try the other source before giving up
+                                  if (reel.thumbnail && img.src !== reel.thumbnail) {
+                                    img.src = reel.thumbnail;
+                                  } else {
+                                    img.style.display = 'none';
+                                  }
+                                }} />
+                            ) : (
+                              <div className="saved-reel-thumb-placeholder">
+                                <Film size={20} color="var(--text-3)" strokeWidth={1.5} />
+                              </div>
+                            );
+                          })()}
+                          <button className="sr-rm" onClick={e => { e.stopPropagation(); onRemoveReel(reel.id); }} aria-label="Remove">
                             <X size={12} />
                           </button>
                           <div className="saved-reel-info">
@@ -395,11 +409,13 @@ function BoardCard({ id, name, reels, onClick, onDrop, onDelete }: {
           <div className="board-empty"><FolderPlus size={32} color="var(--text-3)" /></div>
         ) : (
           <>
-            {top4.map(r => (
-              r.imageUrl
-                ? <img key={r.id} src={r.imageUrl} alt="" className="board-thumb" />
-                : <div key={r.id} className="board-thumb" style={{ background: 'var(--bg-card)' }} />
-            ))}
+            {top4.map(r => {
+              const thumb = r.imageUrl || r.thumbnail;
+              return thumb
+                ? <img key={r.id} src={thumb} alt="" className="board-thumb"
+                    onError={e => { (e.target as HTMLImageElement).style.background = 'var(--bg-card)'; (e.target as HTMLImageElement).style.display = 'none'; }} />
+                : <div key={r.id} className="board-thumb" style={{ background: 'var(--bg-card)' }} />;
+            })}
             {Array.from({ length: 4 - top4.length }).map((_, i) => (
               <div key={'fill' + i} className="board-thumb" style={{ background: 'var(--bg-card)' }} />
             ))}
