@@ -12,7 +12,7 @@
       "src": "/app-icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
       "src": "/favicon.ico",
@@ -20,14 +20,7 @@
       "type": "image/x-icon"
     }
   ],
-  "screenshots": [
-    {
-      "src": "/demo_img/screenshot.png",
-      "sizes": "540x720",
-      "type": "image/png",
-      "form_factor": "narrow"
-    }
-  ],
-  "categories": ["entertainment", "video"],
+  "categories": ["entertainment", "video", "social"],
   "prefer_related_applications": false
 }
+
